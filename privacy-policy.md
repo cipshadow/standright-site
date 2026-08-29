@@ -1,13 +1,13 @@
 ---
-title: MobilePosture Privacy Policy
+title: StandRight Privacy Policy
 permalink: /privacy-policy
 ---
 
-# MobilePosture — Privacy Policy
+# StandRight — Privacy Policy
 
 **Effective date: 2026-08-26**
 
-MobilePosture ("the app") is a posture habit reminder app for Android,
+StandRight ("the app") is a posture habit reminder app for Android,
 developed and published by Cip Blujdea (contact: cipblujdea95@gmail.com).
 This policy describes what data the app handles and where it goes. The short
 version: everything stays on your phone.
@@ -51,7 +51,7 @@ The app is not directed at children and is intended for users 18 and over.
 
 ## Not medical advice
 
-MobilePosture is a habit-building reminder tool, not a medical device. It does
+StandRight is a habit-building reminder tool, not a medical device. It does
 not diagnose, treat, or prevent any condition.
 
 ## Changes to this policy
