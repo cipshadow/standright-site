@@ -1,0 +1,6 @@
+title: StandRight
+description: Local-only Android posture reminder app. No account, no cloud, no ads.
+theme: null
+exclude:
+  - "*.zip"
+  - .claude
