@@ -1,0 +1,4 @@
+# Deliberate: this repo is public. Keep personal Claude Code config and
+# design working files out of it. Do not re-add (sync-skills: skip this repo).
+.claude/
+*.zip
