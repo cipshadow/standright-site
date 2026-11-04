@@ -2,3 +2,15 @@
 # design working files out of it. Do not re-add (sync-skills: skip this repo).
 .claude/
 *.zip
+
+# Agent/session files and local secrets — never commit
+SESSION_LOG*
+.session-handoff.md
+CLAUDE.local.md
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.cursor/
+NOTES.local.md
