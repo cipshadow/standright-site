@@ -1,7 +1,7 @@
 # standright-site
 
 Landing page and privacy policy for the StandRight Android app. Served via
-GitHub Pages at https://standright.cipblujdea.com/ (privacy policy at
+GitHub Pages at https://standright.xyz/ (privacy policy at
 /privacy-policy/). The previous URL, https://cipshadow.github.io/standright-site/, redirects there once the custom domain is set.
 
 Screenshots in `assets/screens/` are 540×960 WebP copies of the framed Play
