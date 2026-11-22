@@ -2,7 +2,7 @@
 layout: default
 title: StandRight Privacy Policy – Android posture app
 description: Privacy policy for StandRight, a local-only Android posture reminder. Your check-ins stay on your phone.
-permalink: /privacy-policy
+permalink: /privacy-policy/
 ---
 
 # StandRight — Privacy Policy
