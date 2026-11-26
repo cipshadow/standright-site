@@ -1,42 +1,39 @@
 ---
 layout: default
 title: "Posture reminder apps for Android: what to look for – StandRight"
-description: "What makes a posture reminder app on Android worth keeping: when it reminds you, how gentle it is, how you answer, and what it does with your data."
+headline: "Posture reminder apps for Android: what to look for"
+breadcrumb: What to look for
+description: What to read on an Android posture reminder listing before you install it. When it asks, how you answer, and what the developer declares about data.
 permalink: /guides/posture-reminder-app-android/
+guide: true
+updated: 2026-11-26
+date_published: 2026-11-24
 ---
 
 # Posture reminder apps for Android: what to look for
 
-A posture reminder only helps if you keep it switched on. Many get turned off within days because they nag at the wrong times. Here is what to look for before you install one.
+{% include updated.html %}
 
-## When it reminds you
+If you want the reminder to stay a private habit, read three things on the listing before the screenshots. When it says it asks. How you answer. And what the developer declares about data. The answers, if the app is doing this job, are ones you log yourself, and they should be able to stay on the phone.
 
-Reminders on a fixed timer arrive whether or not you're slouching. Reminders tied to what you're doing, such as unlocking your phone, land at the moment it's most likely to matter.
+## When it asks
 
-## How gentle it is
-
-Loud alerts and pop-ups that interrupt you are easy to resent. Look for quiet prompts you can answer or dismiss in a second, and a way to pause for an hour when you need to focus.
+An interval fires on a clock. A check tied to an unlock fires when the phone is already in your hand. A tilt cue fires from the phone's angle. The listing has to say which. If it says none of those, you do not yet know what you would be installing. How often an unlock actually happens, and why that beats adding a timer, is in [Can I use unlocking my phone as a cue for a new habit?](/guides/phone-unlock-as-a-habit-cue/) The shape of the habit is in [Build a posture habit in a few seconds a day](/guides/posture-habit/).
 
 ## How you answer
 
-The fewer taps, the better. Answering straight from the notification, without opening the app, keeps the habit fast enough to repeat dozens of times a day.
+One tap, in the notification, is short enough to repeat. The tap should be your report. If a listing describes a sensor, read whether it says the sensor is measuring the phone. That difference is the whole of [How to stop slouching at your phone](/guides/stop-slouching-at-your-phone/).
 
-## Whether it fits your day
+## What the listing says about data
 
-You should be able to choose the days and hours it runs, set a gap between reminders, and have it stop before bed.
+Google Play's Data safety section is where the developer describes how the app collects, shares, and handles data. Google's own help page says you can check it before you install, and that developers use it to share that information ([Understand app privacy and security practices with Google Play's Data safety section](https://support.google.com/googleplay/answer/11416267?hl=en)). "No data collected" means the developer declared that. It does not mean a third party audited the app. Also read whether the description says the app shows ads or asks you to sign in.
 
-## What it shows you
+A table of what seven current Android listings declare, each cell taken from the Play page and dated, is in [Posture reminder apps for Android, compared by their Play listings](/guides/posture-reminder-apps-android-compared/). The "best for" line on that page restates the trigger the developer describes. It is not a test of which app works.
 
-A good app shows the habit over weeks, not only today, without guilt trips when you miss a day.
+## StandRight, on those three
 
-## What it does with your data
-
-Posture check-ins are personal. Check whether the app needs an account, sends data to a server, shows ads or runs analytics. The less it collects, the better.
-
-## Where StandRight fits
-
-[StandRight](/) checks in gently each time you unlock your Android phone. You answer Upright or Slouched with one tap in the notification. It runs on your schedule, pauses with one tap, stops in the last hour of your day, and shows four weeks of check-ins on a calendar. It has no account, no ads, no analytics and no internet permission, so your data stays on your phone.
+[StandRight](/) asks when you unlock, and again if you stay on the phone. You answer Upright or Slouched with one tap in the notification. The Play listing says there is no account, no ads, no analytics, and no internet permission. Its Data safety section declares no data shared and no data collected. The calendar is the check-ins you logged. The glow is the phone's angle.
 
 <p><a href="https://play.google.com/store/apps/details?id=dev.cip.standright">Get StandRight on Google Play</a></p>
 
-<p class="fine"><small>StandRight is a habit-building check-in tool, not a medical device. If you have back or neck pain, talk to a healthcare professional.</small></p>
+<p class="fine"><small>StandRight is a habit-building check-in tool, not a medical device. It doesn't diagnose, treat, or prevent any condition. If you have back or neck pain, talk to a healthcare professional.</small></p>
