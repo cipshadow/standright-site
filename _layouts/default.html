@@ -4,15 +4,18 @@
 {% include head.html %}
 </head>
 <body>
-  <div class="wrap">
+  <div class="wrap{% if page.wide %} wide{% endif %}">
     <header>
       <a href="{{ '/' | relative_url }}">
         <img src="{{ '/assets/mark.svg' | relative_url }}" alt="StandRight">
         <span class="name">StandRight</span>
       </a>
+      <nav>
+        <a href="{{ '/guides/' | relative_url }}">Guides</a>
+      </nav>
     </header>
     <main>{{ content }}</main>
-    <footer>Nothing leaves your phone. No account, no cloud, no ads.<br><a href="{{ '/' | relative_url }}">StandRight home</a> · <a href="{{ '/privacy-policy/' | relative_url }}">Privacy policy</a></footer>
+    <footer>Nothing leaves your phone. No account, no cloud, no ads.<br><a href="{{ '/' | relative_url }}">StandRight home</a> · <a href="{{ '/guides/' | relative_url }}">Guides</a> · <a href="{{ '/privacy-policy/' | relative_url }}">Privacy policy</a></footer>
   </div>
 </body>
 </html>

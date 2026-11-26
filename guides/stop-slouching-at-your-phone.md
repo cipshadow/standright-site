@@ -1,36 +1,37 @@
 ---
 layout: default
 title: How to stop slouching at your phone – StandRight
-description: Simple ways to notice when you slouch over your phone and sit up straight, plus how a gentle check-in on unlock turns it into a habit.
+headline: How to stop slouching at your phone
+breadcrumb: Phone position
+description: Where to hold an Android phone, and what a tilt cue is measuring. The sensor reads the phone. A check-in is something you log yourself.
 permalink: /guides/stop-slouching-at-your-phone/
+guide: true
+updated: 2026-11-26
+date_published: 2026-11-24
 ---
 
 # How to stop slouching at your phone
 
-Most of us know when we sit badly at a desk. The phone is sneakier. You pick it up for a quick message, your head drops, your shoulders round, and ten minutes later you're folded over the screen without having noticed.
+{% include updated.html %}
 
-The fix is rarely more willpower. It's noticing at the right moment.
+Build it as a private habit: a check-in you answer, stored on the phone. The search is about slouching at the phone. The only thing this page is about is the phone itself. How high it is, and how far it is tipped.
 
-## Notice the moment, not the whole day
+## How high
 
-Trying to "have good posture" all day is vague and easy to forget. A better target is one small moment you already repeat many times: picking up your phone. If you check in with yourself each time you unlock it, you get dozens of short chances a day to sit up, with no extra time set aside.
+A phone in your lap is a phone you look down at. A phone brought up, closer to where your eyes already are, is a phone you look across at. That is the change. If holding it there is tiring, prop the phone on a table or a cushion. The prop is for the phone.
 
-## Bring the phone up, not your head down
+## How far it is tipped
 
-Where the phone goes, your head follows. Holding it low on your lap pulls your gaze, and with it your neck and upper back, downwards. Lifting the phone closer to eye level lets you stay upright while you read. Propping your elbows on a table or a cushion makes that easier to keep up.
+The other part is the phone's angle. Flat, the screen faces the ceiling. Tipped back, the top of the phone comes toward you, which is how it sits when you hold it over you in bed. Less tip is the adjustment. You can also set an angle and let a cue mark when the phone passes it.
 
-## Keep it light
+That cue, if it uses the phone's motion sensors, is reading the phone. Android's documentation says the gravity sensor provides a three dimensional vector indicating the direction and magnitude of gravity, typically used to determine the device's relative orientation in space ([Motion sensors](https://developer.android.com/guide/topics/sensors/sensors_motion)). The vector describes the device. It does not describe your body.
 
-A posture habit sticks when it feels kind, not nagging. Short, gentle prompts work better than alarms. Missing a few is fine. What matters is that the check-in keeps coming back, so the question "am I sitting up?" becomes automatic.
+## What StandRight's glow is
 
-## Watch out for reading in bed
+On [StandRight](/), past an angle you choose, a soft glow shows at the screen edges when the phone tips back. The [privacy policy](/privacy-policy/) says the gravity and accelerometer sensors are read on the phone for that, and that what gets stored is the tilt event: time, duration, and angle. The glow runs only for a short window after an unlock. The check-in beside it, upright or slouched, is still a tap you make.
 
-Lying back with the phone tipped towards you is one of the easiest ways to end up curled over the screen. If you read in bed, sit up against a pillow and hold the phone higher, or set a short limit.
-
-## How StandRight helps
-
-[StandRight](/) builds this habit for you on Android. Each time you unlock, a gentle check-in asks one question, and you answer in the notification with one tap: Upright or Slouched. If you tip the phone back past your chosen angle, a soft glow at the screen edges reminds you to lift it. Over the weeks, a calendar shows the habit building.
+The habit of answering that tap is in [Build a posture habit in a few seconds a day](/guides/posture-habit/). Why the unlock is the moment for it is in [Can I use unlocking my phone as a cue for a new habit?](/guides/phone-unlock-as-a-habit-cue/)
 
 <p><a href="https://play.google.com/store/apps/details?id=dev.cip.standright">Get StandRight on Google Play</a></p>
 
-<p class="fine"><small>StandRight is a habit-building check-in tool, not a medical device. If you have back or neck pain, talk to a healthcare professional.</small></p>
+<p class="fine"><small>StandRight is a habit-building check-in tool, not a medical device. It doesn't diagnose, treat, or prevent any condition. If you have back or neck pain, talk to a healthcare professional.</small></p>

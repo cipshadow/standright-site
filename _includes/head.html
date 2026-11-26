@@ -2,6 +2,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ page.title | default: site.title }}</title>
 <meta name="description" content="{{ page.description | default: site.description }}">
+{% if page.noindex %}
+<meta name="robots" content="noindex">
+{% endif %}
 <link rel="canonical" href="{{ page.url | absolute_url }}">
 <meta property="og:title" content="{{ page.title | default: site.title | escape }}">
 <meta property="og:description" content="{{ page.description | default: site.description | escape }}">
@@ -39,6 +42,55 @@
 }
 </script>
 {% endif %}
+{% if page.guide %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ page.headline | jsonify }},
+  "description": {{ page.description | jsonify }},
+  "datePublished": "{{ page.date_published | date: '%Y-%m-%d' }}",
+  "dateModified": "{{ page.updated | date: '%Y-%m-%d' }}",
+  "author": {
+    "@type": "Organization",
+    "name": "StandRight",
+    "url": {{ '/' | absolute_url | jsonify }}
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "StandRight",
+    "url": {{ '/' | absolute_url | jsonify }}
+  },
+  "mainEntityOfPage": {{ page.url | absolute_url | jsonify }}
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": {{ '/' | absolute_url | jsonify }}
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Guides",
+      "item": {{ '/guides/' | absolute_url | jsonify }}
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": {{ page.breadcrumb | jsonify }},
+      "item": {{ page.url | absolute_url | jsonify }}
+    }
+  ]
+}
+</script>
+{% endif %}
 <link rel="icon" href="{{ '/assets/mark.svg' | relative_url }}" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -55,8 +107,9 @@
     font-size:17px; line-height:1.65;
   }
   .wrap{max-width:44rem; margin:0 auto; padding:0 16px 96px}
-  header{padding:56px 0 8px; display:flex; align-items:center; gap:14px}
-  header a{display:flex; align-items:center; gap:14px; color:inherit; text-decoration:none}
+  header{padding:56px 0 8px; display:flex; align-items:center; justify-content:space-between; gap:14px}
+  header > a{display:flex; align-items:center; gap:14px; color:inherit; text-decoration:none}
+  header nav a{color:var(--ink2); font-size:.95rem}
   header img{width:46px; height:46px; display:block}
   header .name{font-family:Outfit,sans-serif; font-weight:600; font-size:1.6rem; letter-spacing:-.01em}
   main{background:var(--surface); border:1px solid var(--hairline); border-radius:24px; padding:8px 28px 28px; margin-top:28px}
@@ -70,5 +123,21 @@
   code{background:var(--canvas); padding:2px 6px; border-radius:6px; font-size:.9em}
   footer{color:var(--ink2); font-size:.9rem; margin-top:28px; text-align:center}
   footer a{color:var(--ink2)}
+  .meta{margin:0 0 12px}
+  .fine{font-size:.92rem}
+  .wrap.wide{max-width:64rem}
+  .table-scroll{overflow-x:auto; margin:8px 0 20px}
+  .table-scroll table{width:72rem; min-width:72rem; table-layout:fixed; border-collapse:collapse; font-size:.92rem}
+  .table-scroll th:first-child{width:16rem; position:sticky; left:0; background:var(--surface); z-index:1; box-shadow:1px 0 0 var(--hairline)}
+  .table-scroll code{word-break:break-word}
+  table{width:100%; border-collapse:collapse; font-size:.92rem}
+  caption{text-align:left; font-size:.92rem; color:var(--ink2); margin:0 0 10px; caption-side:bottom}
+  th,td{border-bottom:1px solid var(--hairline); text-align:left; vertical-align:top; padding:10px 12px 10px 0}
+  th{font-family:Outfit,sans-serif; font-weight:600; color:var(--ink); font-size:.84rem}
+  .dev{color:var(--ink); font-size:.92rem}
+  .bestfor{margin:8px 0 0}
   @media (max-width:520px){ body{font-size:16px} header{padding-top:36px} main{padding:4px 18px 22px} h1{font-size:1.6rem} }
+  @media (max-width:640px){
+    .table-scroll th:first-child{position:static; box-shadow:none}
+  }
 </style>
