@@ -6,8 +6,6 @@ breadcrumb: Play listings compared
 description: What seven Android posture-reminder listings declare on Google Play. Trigger, ads, purchases, Data safety, downloads, and last updated. No ranking of results.
 permalink: /guides/posture-reminder-apps-android-compared/
 guide: true
-# noindex until Chip approves this draft
-noindex: true
 wide: true
 updated: 2026-11-26
 date_published: 2026-11-26
