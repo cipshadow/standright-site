@@ -35,8 +35,10 @@ StandRight is a subscription with a free trial. Purchases, trials,
 renewals and cancellations are handled entirely by Google Play, under
 [Google's privacy policy](https://policies.google.com/privacy). The app asks
 the Google Play Store app on your phone whether your subscription is active;
-it does not see or store your payment details, and the developer receives
-only the standard anonymous sales reports Google provides to all developers.
+it does not see or store your payment details. Google gives the developer the
+order records it provides to every Play developer (such as order ID, product,
+price and country) for sales reporting; the developer never receives your card
+or bank details.
 Manage or cancel your subscription in the Google Play Store app.
 
 ## CSV export
