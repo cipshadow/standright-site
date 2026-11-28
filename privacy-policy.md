@@ -7,7 +7,7 @@ permalink: /privacy-policy/
 
 # StandRight — Privacy Policy
 
-**Effective date: 2026-10-05**
+**Effective date: 2026-11-28**
 
 StandRight ("the app") is a posture habit reminder app for Android,
 developed and published by Cip Blujdea (contact: cipblujdea95@gmail.com).
@@ -26,7 +26,20 @@ never uploaded, synced, or transmitted anywhere by the app.
 
 Nothing. The app has no user accounts, no sign-in, no advertising, no
 analytics, and no third-party SDKs that transmit data. It makes no network
-requests. We (the developer) never see your data.
+requests and does not have Android's internet permission. We (the developer)
+never see your data.
+
+## Subscriptions and purchases
+
+StandRight is a subscription with a free trial. Purchases, trials,
+renewals and cancellations are handled entirely by Google Play, under
+[Google's privacy policy](https://policies.google.com/privacy). The app asks
+the Google Play Store app on your phone whether your subscription is active;
+it does not see or store your payment details. Google gives the developer the
+order records it provides to every Play developer (such as order ID, product,
+price and country) for sales reporting; the developer never receives your card
+or bank details.
+Manage or cancel your subscription in the Google Play Store app.
 
 ## CSV export
 
@@ -58,6 +71,8 @@ the app). You can exclude the app from backups in Android's settings.
 
 - **Notifications** — to show posture reminders and the daily recap.
 - **Display over other apps** (optional) — for the brief on-screen tilt cue.
+- **Google Play billing** — to start and check your subscription through the
+  Play Store app on your phone.
 - **Gravity/accelerometer sensor** — read on-device, screen-on only, to detect
   when the phone is tilted back. Sensor readings are processed locally and only
   tilt events (time, duration, angle) are stored.
